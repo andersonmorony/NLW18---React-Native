@@ -21,7 +21,8 @@ export const s = StyleSheet.create({
         fontFamily: fontFamily.regular
     },
     containerSelected: {
-        backgroundColor: colors.green.base
+        backgroundColor: colors.green.base,
+        borderColor: colors.green.base,
     },
     nameSelected: {
         color: colors.gray[100]
